@@ -1,0 +1,15 @@
+language: bash
+
+before_script:
+  - touch test
+
+script:
+  - ls test
+
+branches:
+  only:
+    - master
+
+notifications:
+  email:
+    - dev@escapestudios.com
