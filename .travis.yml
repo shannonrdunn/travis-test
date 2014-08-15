@@ -7,6 +7,8 @@ script:
   - export http_proxy=http://iss-americas-pitc-alpharettaz.proxy.corporate.ge.com:80/
   - export https_proxy=http://iss-americas-pitc-alpharettaz.proxy.corporate.ge.com:80/
   - export no_proxy="localhost, 127.0.0.1, *.ge.com"
+  - export rvm_prefix="$HOME"
+  - export rvm_path="$HOME/.rvm"
   - env |grep prox
   - rvm use 2.0.0
   - ruby --version
