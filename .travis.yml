@@ -4,8 +4,7 @@ before_script:
   - touch test
 
 script:
-  - ruby --version
-  - ls test
+  - gem install bundler
 
 branches:
   only:
