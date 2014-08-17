@@ -9,7 +9,7 @@ script:
   - export no_proxy="localhost, 127.0.0.1, *.ge.com"
   - curl -sSL https://get.rvm.io | bash -s stable
   - source /home/vagrant/.rvm/scripts/rvm
-  - rvm install 2.0.0 --with-openssl-dir=$HOME/.rvm/usr
+  - rvm install 2.0.0 
   - git --version
 branches:
   only:
